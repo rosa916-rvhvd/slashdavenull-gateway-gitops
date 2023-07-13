@@ -1,0 +1,15 @@
+app:
+  name: slashdavenull-poi-gateway-app
+  namespace: slashdavenull
+  cluster: .apps.rosa916.9nln.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rosa916-rvhvd/slashdavenull-gateway
+  org: rosa916-rvhvd
+  name: slashdavenull-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: slashdavenull/poi-gateway-app
+  tag: latest
